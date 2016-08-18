@@ -2,6 +2,7 @@
   "name": "routed-react",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://mrpatiwi.github.io/routed-react",
   "devDependencies": {
     "react-scripts": "0.2.1"
   },
