@@ -7,7 +7,7 @@
     "mocha": "^3.0.2",
     "mz": "^2.4.0",
     "react-scripts": "0.2.1",
-    "supertest": "^2.0.0"
+    "supertest-as-promised": "^4.0.0"
   },
   "dependencies": {
     "classnames": "^2.2.5",
@@ -25,6 +25,12 @@
     "test": "mocha test"
   },
   "eslintConfig": {
-    "extends": "./node_modules/react-scripts/config/eslint.js"
+    "extends": "./node_modules/react-scripts/config/eslint.js",
+    "env": {
+      "mocha": true
+    },
+    "rules": {
+      "strict": 0
+    }
   }
 }
