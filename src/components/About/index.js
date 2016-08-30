@@ -1,18 +1,18 @@
 // src/components/About/index.js
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
 import classnames from 'classnames';
 
 import './style.css';
 
-export default class About extends Component {
-  static propTypes = {
-    className: PropTypes.string,
-    style: PropTypes.object,
-  }
+class About extends Component {
+  static propTypes = {}
+  static defaultProps = {}
+  state = {}
 
   render() {
+    const { className, ...props } = this.props;
     return (
-      <div className={classnames('About', this.props.className)} style={this.props.style}>
+      <div className={classnames('About', className)} {...props}>
         <h1>
           About
         </h1>
@@ -20,3 +20,5 @@ export default class About extends Component {
     );
   }
 }
+
+export default About;
