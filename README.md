@@ -17,7 +17,7 @@ Install dependencies:
 npm install
 ```
 
-Start the project at [`http://localhost:9000`](http://localhost:9000).
+Start the project at [`http://localhost:3000`](http://localhost:3000).
 
 ```sh
 npm start
