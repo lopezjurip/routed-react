@@ -8,7 +8,7 @@ Clone this repository:
 
 ```sh
 git clone https://github.com/mrpatiwi/routed-react.git
-de routed-react
+cd routed-react
 ```
 
 Install dependencies:
